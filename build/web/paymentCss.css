@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 4, 2023, 12:16:02 AM
+    Author     : arish
+*/
+        body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #FEF4BE;
+            }
+
+        .topnav {
+                overflow: hidden;
+                background-color: #DF9881;
+                height: 60px;
+            }
+
+        .topnav a { /**words on nav bar**/
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+        .topnav a:hover {
+                background-color: #FAF884;
+                color: black;
+                height: 60px;
+            }
+        .center {
+                margin: auto;
+                width: 60%;
+                border: 3px solid #DF9881;
+                padding: 10px;
+                text-align: center;
+            }
+        .btn {
+                background-color: #FFC0CB;
+                right: 0;
+                margin-top: 10px;
+            }
+        .btn:hover, .btn:active, .btn:focus {
+                color: #fff;
+            }
+            
+        .l1 {
+                display: block;
+                font-family: 'Nanum Gothic';
+                padding-bottom: 10px;
+                font-size: 1.25em;
+            }
+              .b1 {
+                height: 50px;
+                background: #FFD19B;
+                border: none;
+                color: black;
+                font-size: 1.25em;
+                font-family: 'Nanum Gothic';
+                border-radius: 4px;
+                cursor: pointer;
+                width: 100px;
+            }
+  
+
+           .footer{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: #DF9881;
+                color: white;
+                text-align: center;
+                padding: 2px;
+            }
+
+            .footer div{
+                text-align: center;
+            }
