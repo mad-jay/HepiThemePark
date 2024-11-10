@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2023, 4:06:28 PM
+    Author     : User
+*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #DF9881;
+    height: 60px;
+  }
+  
+  .navbar a { 
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #FAF884;
+    color: black;
+    height: 60px;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FEF4BE;
+    
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+    
+  }
+
+  .register{
+    
+    width: 500px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  form{
+    display: flex;
+    margin: 20px ;
+    background-color:  #FDF4D0;
+    border-radius: 10px;
+    padding: 10px;
+   
+    
+}
+  
+
+  .container {
+    background-color:  #FDF4D0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 190%;
+    border-radius: 20px;
+  }
+  
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #FFD19B;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+ 
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  
+  .registerbtn {
+    background-color: #FFD19B;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+
+  a {
+    color: #A75A5E;
+  }
+  
+
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  .footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #DF9881;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.footer div{
+    text-align: center;
+}

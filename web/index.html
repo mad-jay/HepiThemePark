@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<style>
+  body {
+  background:  #f3f2f2; 
+}
+.row {
+  height: 100vh;
+}
+.form {
+  background:  #ffffff; 
+  border-radius:  4px; 
+  box-shadow:  0px 2px 6px -1px rgba(0,0,0,.12);
+}
+.image img {
+  width: 320px;
+  height: 500px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.my-form {
+  padding: 2.5rem;
+}
+.my-form h4 {
+  color: #FFC0CB;
+}
+.my-form p {
+  font-size: .875rem;
+  font-weight: 400;
+}
+.btn {
+  background-color: #FFC0CB;
+  right: 0;
+  margin-top: 10px;
+}
+.btn:hover, .btn:active, .btn:focus {
+  color: #fff;
+}
+a {
+  bottom: 0;
+}
+.space {
+  
+  padding-bottom: 2rem;
+}
+.link {
+  font-size: .875rem;
+  float: right;
+  color: #FFC0CB;
+}
+.link:hover, .link:active {
+  color: #FFC0CB;
+}
+@-webkit-keyframes autofill {
+  to {
+    color: #FFC0CB;
+    background: transparent; } }
+
+@keyframes autofill {
+  to {
+    color: #FFC0CB;
+    background: transparent; } }
+
+input:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<div class="container">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-7">
+      <div class="form d-flex justify-content-between">
+        <div class="image">
+          <img src="theme park.jpg">
+        </div>
+        <form action="dashboard.html" class="my-form" method="post">
+          <h4 class="font-weight-bold mb-3">Log in to Hepi Theme Park</h4>
+          <p class="mdb-color-text">Hepi Place For All !</p>
+          <!-- Email address -->
+          <div class="md-form md-outline">
+            <label for="usernameExample">Username</label>
+            <input type="username" id="usernameExample" class="form-control">
+          </div>
+          <!-- Password -->
+          <div class="md-form md-outline">
+            <label for="passwordExample">Password</label>
+            <input type="password" id="passwordExample" class="form-control">
+            
+          </div>
+          
+              <button class="btn btn-rounded" type="button" onclick="document.location='dashboard.html'">Log in</button>
+            
+          <hr>
+          <a class="link" href="registration.jsp">New user ? Register here and join our hepi member :)</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

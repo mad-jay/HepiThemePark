@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #FEF4BE;
+    postion: relative;
+    top: -5px;
+    
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #DF9881;
+  color: white;
+  text-align: center;
+  padding: 2px;
+}
+
+.footer div{
+  text-align: center;
+}
+
+
+.h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.col-3 {
+  text-align: center;
+  padding-left: 450px;
+}
+
+.formFoot input{
+    width:400px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    outline: none;
+    border: none;
+}
+
+.buttonF{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #DF9881;
+    height: 60px;
+  }
+  
+  .navbar a { 
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #FAF884;
+    color: black;
+    height: 60px;
+  }
+  
+ 
+
+  .booking{
+    width: 500px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+.f1  {
+    margin: 20px 0;
+    background-color:  #FDF4D0;
+    border-radius: 10px;
+    padding: 40px;
+  }
+
+.l1 {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+
+  .i1, .s1, .t1 {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+
+  hr {
+    border: 1px dotted #ccc;
+  }
+
+  textarea {
+    height: 250px;
+  }
+
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+  }
+
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+
+  .b1 {
+    height: 50px;
+    background: #FFD19B;
+    border: none;
+    color: black;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
